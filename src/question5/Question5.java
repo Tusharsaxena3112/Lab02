@@ -13,5 +13,6 @@ public class Question5 {
         } else {
             System.out.println("Invalid");
         }
+        input.close();
     }
 }
