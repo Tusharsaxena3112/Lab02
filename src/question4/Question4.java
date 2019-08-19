@@ -13,6 +13,8 @@ public class Question4 {
         } else {
             System.out.println("Zero");
         }
+        input.close();
     }
+
 
 }
