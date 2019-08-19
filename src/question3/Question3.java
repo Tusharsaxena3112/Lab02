@@ -8,7 +8,7 @@ public class Question3 {
         int num1 = input.nextInt();
         int num2 = input.nextInt();
         System.out.printf("%d + %d = %d\n", num1, num2, num1 + num2);
-        System.out.printf("%d - %d = %d\n", num1, num2, num1 - num2);
+        System.out.printf("%d - %d = %d\n", (num1 > num2) ? num1 : num2, (num2 < num1) ? num2 : num1, (num1 > num2) ? (num1 - num2) : (num2 - num1));
         System.out.printf("%d * %d = %d\n", num1, num2, num1 * num2);
         System.out.printf("%d / %d = %d\n", num1, num2, num1 / num2);
         System.out.printf("%d %% %d = %d\n", num1, num2, num1 % num2);
@@ -16,3 +16,4 @@ public class Question3 {
     }
 
 }
+//ctrl+shift+alt̥+l
