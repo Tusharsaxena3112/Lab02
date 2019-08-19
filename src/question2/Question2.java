@@ -8,6 +8,7 @@ public class Question2 {
         String first = input.nextLine();
         String second = input.nextLine();
         System.out.printf("%s University %s ", first, second);
+        input.close();
 
     }
 
