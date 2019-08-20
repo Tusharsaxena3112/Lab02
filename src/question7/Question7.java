@@ -13,5 +13,7 @@ public class Question7 {
         } else {
             System.out.println("special character");
         }
+        input.close();
     }
+
 }
